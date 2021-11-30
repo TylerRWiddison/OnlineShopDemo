@@ -10,12 +10,12 @@
                     <li class="cart__item">
                         <h1><%= p.productId.title %></h1>
                         <h2>Quantity: <%= p.quantity %></h2>
-                        <h3>Price: $<%= p.productId.price %></h3>
+                        <h3 class="text-color">Price: $<%= p.productId.price %></h3>
                     </li>
                 <% }) %>
             </ul>
             <div class="centered">
-                <h2>Total: $<%= totalSum %></h2>
+                <h2 class="text-color">Total: $<%= totalSum %></h2>
             </div>
             <div class="centered">
                 <button id="order-btn" class='btn'>ORDER</button>
